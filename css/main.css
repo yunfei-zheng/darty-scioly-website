@@ -6,6 +6,7 @@ html, body {
 body {
   /* Default to system font if custom font not supported */
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: forestgreen;
 }
 
 .main-bg-image {

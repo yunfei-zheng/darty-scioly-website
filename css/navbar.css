@@ -12,9 +12,9 @@
   
   .navbar .navbar-nav {
     color: #121626;
-    display: inline-block;
+    /*display: inline-block;*/
     text-align: left;
-    /*float: right;*/
+    float: right;
     vertical-align: top;
     margin-top: 0;
     margin-bottom: 0;
