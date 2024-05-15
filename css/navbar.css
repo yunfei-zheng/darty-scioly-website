@@ -1,5 +1,25 @@
 /* CSS for navbar */
 
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+  width: 100%;
+}
+
+.dropdown-menu > li > a {
+  text-align: right;
+  color: white;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /* Style for navbar */
 .navbar {
     font-family: 'Lato';
