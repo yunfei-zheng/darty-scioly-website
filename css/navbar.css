@@ -63,11 +63,9 @@
   /* Dropdown background color */
   .navbar-inverse .dropdown-menu {
     background-color: #EEEEEE;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
     box-shadow: none;
-    /*-webkit-appearance: none; /* remove rounded border */
-    /*-webkit-border-radius: 0px; /* remove rounded border */
+    appearance: none; /* remove rounded border */
+    border-radius: 0px; /* remove rounded border */
   }
   
   .navbar-inverse .dropdown-menu > li > a {
@@ -117,7 +115,7 @@
   /* Change this to change navbar font color */
   .navbar-inverse #navbar > ul > li > a, .navbar-inverse #navbar > ul > li > a:focus {
     background-color: transparent;
-    color: #555555;
+    color: black;
   }
   
   .navbar-inverse #navbar > ul > li > a:hover {

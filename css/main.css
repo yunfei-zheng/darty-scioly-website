@@ -18,12 +18,17 @@ body {
   background-size: cover;
 }
 
-h1, p {
-  color: whitesmoke;
+h1 {
+  color: white;
   text-align: center;
 }
 
-/* Remove this later */
-img:hover {
-  transform: rotate(180)
+.home {
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+}
+
+.section-title {
+  color: blue;
 }
