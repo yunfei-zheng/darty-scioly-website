@@ -9,6 +9,10 @@
     margin-bottom: 0;
 }
 
+#navbarNavDropdown {
+    float: right;
+}
+
 /* Text font color */
 .navbar-nav > li > a {
     color: white;
