@@ -1,42 +1,49 @@
 <!-- Static navbar -->
 
-<div class="container-fluid container">
-    <div class="navbar-header">
-        <a class="navbar-brand" href="index.html"><img src="images/temp_scioly_logo.jpg" width,height="100"></a>
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+<nav class="navbar navbar-expand-lg bg-transparent w-100">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="images/temp_scioly_logo.jpg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a></li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="updates.html">Updates</a></li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="team.html">The Team</a></li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="partners.html">Partners</a></li>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tournament Information<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="awards.html">Awards Ceremony</a></li>
+                        <li><a class="dropdown-item" href="info.html">Competition Policies</a></li>
+                        <li><a class="dropdown-item" href="registration.html">Registration</a></li>
+                        <li><a class="dropdown-item" href="travel.html">Travel</a></li> 
+                        <li><a class="dropdown-item" href="dayof.html">Day-Of</a></li>
+                        <!-- When we get highlights we can also have a highlights page here -->
+                    </ul>
+                </li>
+                <!--This is more as a placeholder for later years since we don't really need it now-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Archive<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <!-- In future years we can include "past tests" and stuff -->
+                        <li><a class="dropdown-item" href="archive.html">Tests and Pics</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div id="navbar" class="navbar-collapse navbar-center collapse">
-        <ul class="nav navbar-nav">
-            <li><a href="about.html">About</a></li>
-            <li><a href="updates.html">Updates</a></li>
-            <li><a href="team.html">The Team</a></li>
-            <li><a href="partners.html">Partners</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" aria-expanded="false">Tournament Information
-                    <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="awards.html">Awards Ceremony</a></li>
-                    <li><a href="info.html">Competition Policies</a></li>
-                    <li><a href="registration.html">Registration</a></li>
-                    <li><a href="travel.html">Travel</a></li> 
-                    <li><a href="dayof.html">Day-Of</a></li> 
-                    <!--<li><a href="highlights.html">Tournament Highlights</a></li>-->
-                </ul>
-            </li>
-            <!--This is more as a placeholder for later years since we don't really need it now-->
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" aria-expanded="false">Archive
-                    <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                    <!--<li><a href="past-tests.html">Tests and Pics</a></li>-->
-                    <li><a href="archive.html">Tests and Pics</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</div>
+</nav>
