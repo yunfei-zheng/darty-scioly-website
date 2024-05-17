@@ -1,6 +1,8 @@
 /* CSS for navbar */
 /* Modified from https://github.com/princetonscioly/puso_website/blob/site/2022/css/main.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .navbar {
     font-family: 'Lato';
     letter-spacing: 0.5px;
@@ -18,8 +20,30 @@
     color: white;
 }
 
+.dropdown-menu > li > a {
+    color: white;
+}
+
 /* Navbar is 50 px high */
 .navbar-brand img {
     min-height: 26px;
     height: 26px;
+}
+
+/* Effect for mousing over it */
+.nav-item:hover {
+    background-color: gray;
+}
+
+.nav-item > a:hover,
+.nav-item > a:focus {
+    color: white !important;
+}
+
+/* Dropdown background color */
+.dropdown-menu {
+    background-color: gray;
+    box-shadow: none;
+    appearance: none; /* remove rounded border */
+    border-radius: 0px; /* remove rounded border */
 }
