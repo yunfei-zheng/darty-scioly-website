@@ -6,7 +6,7 @@
 .navbar {
     font-family: 'Lato';
     letter-spacing: 0.5px;
-    font-weight: 400;
+    font-weight: 800;
     border: 0;
     margin-bottom: 0;
 }
@@ -18,7 +18,7 @@
 /* Text font color */
 .navbar-nav > li > a {
     color: white;
-    font-size: 20px;
+    font-size: 80px;
     text-shadow:
         0.07em 0 black,
         0 0.07em black,
