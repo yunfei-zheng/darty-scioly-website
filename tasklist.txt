@@ -1,0 +1,4 @@
+MAIN WEBPAGE
+- Fix background scroll so that the text moves but the image stays in place
+    - DONE -- consider changing the image itself to be grayed out, so that when you overscroll it doesn't reach the "real" light portion of the image
+- Make 
