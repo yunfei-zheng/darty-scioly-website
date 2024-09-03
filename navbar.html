@@ -1,48 +1,50 @@
-<!-- Static navbar -->
 
-<nav class="navbar navbar-expand-lg bg-transparent w-100">
+<nav class="navbar navbar-expand-sm bg-transparent w-100">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img src="images/temp_scioly_logo.jpg"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler navbar-toggle collapsed custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" >
+            <span class="navbar-toggler-icon custom-toggler"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a></li>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="updates.html">Updates</a></li>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="team.html">The Team</a></li>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="partners.html">Partners</a></li>
+            <ul class="nav navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="mission.html">History and Mission</a></li>
+                        <li><a class="dropdown-item" href="team.html">The Team</a></li>
+                        <li><a class="dropdown-item" href="partners.html">Partners</a></li>
+                        <li><a class="dropdown-item" href="join.html">Join Us</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Tournament Information<span class="caret"></span>
+                        Tournament<span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="awards.html">Awards Ceremony</a></li>
-                        <li><a class="dropdown-item" href="info.html">Competition Policies</a></li>
+
+                        <li><a class="dropdown-item" href="info.html">Tournament Information</a></li>
                         <li><a class="dropdown-item" href="registration.html">Registration</a></li>
-                        <li><a class="dropdown-item" href="travel.html">Travel</a></li> 
-                        <li><a class="dropdown-item" href="dayof.html">Day-Of</a></li>
-                        <!-- When we get highlights we can also have a highlights page here -->
+                        <li><a class="dropdown-item" href="schedule.html">Schedule</a></li>
+                        <li><a class="dropdown-item" href="logistics.html">Logistics</a></li>
+                        <li><a class="dropdown-item" href="updates.html">Announcements & Updates</a></li>
                     </ul>
                 </li>
-                <!--This is more as a placeholder for later years since we don't really need it now-->
-                <li class="nav-item dropdown">
+                <li class="nav-item">
+                    <a class="nav-link" class="navbar-text" href="gallery.html">Gallery</a></li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" class="navbar-text" href="contact.html">Contact Us</a></li>
+                </li>
+                <!--<li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Archive<span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-                        <!-- In future years we can include "past tests" and stuff -->
                         <li><a class="dropdown-item" href="archive.html">Tests and Pics</a></li>
                     </ul>
-                </li>
+                </li>-->
             </ul>
         </div>
     </div>

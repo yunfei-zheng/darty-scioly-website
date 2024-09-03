@@ -1,7 +1,7 @@
 /* CSS for navbar */
 /* Modified from https://github.com/princetonscioly/puso_website/blob/site/2022/css/main.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 
 .navbar {
     font-family: 'Lato';
@@ -17,7 +17,8 @@
 
 /* Text font color */
 .navbar-nav > li > a {
-    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
 }
 
 .dropdown-menu > li > a {
@@ -32,7 +33,7 @@
 
 /* Effect for mousing over it */
 .nav-item:hover {
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.65);
 }
 
 .nav-item > a:hover,
@@ -42,8 +43,20 @@
 
 /* Dropdown background color */
 .dropdown-menu {
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.65);
     box-shadow: none;
     appearance: none; /* remove rounded border */
     border-radius: 0px; /* remove rounded border */
 }
+
+.navbar-toggler-icon-options {
+    color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgba(255,255,255, 0.7);
+  } 
